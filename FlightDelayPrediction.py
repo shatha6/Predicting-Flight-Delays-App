@@ -4,7 +4,7 @@ import pickle
 from datetime import datetime, time
 
 # Load the trained model
-with open(r"C:\Users\Dell\OneDrive\Documenten\PredictingFlightDelays\model\flightdelay.pkl","rb") as f: 
+with open("flightdelay.pkl","rb") as f: 
     MODEL = pickle.load(f)
 
 
