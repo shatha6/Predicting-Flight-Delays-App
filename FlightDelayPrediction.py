@@ -74,7 +74,7 @@ def main():
 
         
         # Show the prediction to the user
-        st.write(f'The probability of a delay for your flight is {prediction:.0%}.')
+        st.write(f'The probability of arrival on time your flight is {prediction:.0%}.')
         st.success(prediction)
 
 if __name__ == '__main__':
